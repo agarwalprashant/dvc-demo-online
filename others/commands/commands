@@ -1,0 +1,8 @@
+dvc remote add -d myremote s3://mybucket
+dvc remote add -d /Users/prashantagarwal/Desktop/mlops/campusx-storage (will create entries in config file)
+
+dvc add data/customer.csv (similar to git add)
+dvc push (pushes the data to remote in this case campusx-storage)
+dvc checkout
+dvc pull (pulls the data from remote in this case campusx-storage)
+dvc get (pulls the data from remote in this case campusx-storage)
