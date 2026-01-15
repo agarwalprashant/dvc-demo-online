@@ -3,7 +3,7 @@ dvc remote add -d /Users/prashantagarwal/Desktop/mlops/campusx-storage (will cre
 
 dvc add data/customer.csv (similar to git add)
 dvc push (pushes the data to remote in this case campusx-storage)
+dvc fetch (fetches the data from remote in this case campusx-storage)Hello. 
 dvc checkout (checks out the data from remote in this case campusx-storage)
 dvc pull (pulls the data from remote in this case campusx-storage)
-dvc fetch (fetches the data from remote in this case campusx-storage)
 dvc get (pulls the data from remote in this case campusx-storage)
